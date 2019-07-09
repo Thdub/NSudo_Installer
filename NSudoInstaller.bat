@@ -9,7 +9,7 @@
 	set "Tmp_Path=%~dp0\NSudoFolder"
 	%windir%\system32\reg.exe query "HKU\S-1-5-19" 1>NUL 2>NUL || goto :NOADMIN
 
-:PathSelection
+:: Path selection
 	setlocal EnableDelayedExpansion
 	echo Where do you want to install Nsudo?
 :: Hybrid browser
@@ -50,7 +50,7 @@
 	PowerShell -NoProfile -ExecutionPolicy Bypass -file "%ShortcutScriptPath%"
 	del "%ShortcutScriptPath%" /f /s /q >NUL 2>&1
 :: Update icon display
-	Powershell -ExecutionPolicy Bypass -command "(ls "$env:programdata\Microsoft\Windows\Start Menu\Programs\Systemtest\Nsudo.lnk").lastwritetime = get-date" >NUL 2>&1
+	Powershell -ExecutionPolicy Bypass -command "(ls "$env:programdata\Microsoft\Windows\Start Menu\Programs\System\Nsudo.lnk").lastwritetime = get-date" >NUL 2>&1
 
 :CONTEXTMENU
 	echo:
@@ -61,7 +61,7 @@
 	reg add "HKCR\exefile\shell\NSudo" /v "Icon" /t REG_SZ /d "\"%NSudoFolder%\NSudo.exe\"" /f >NUL 2>&1
 	reg add "HKCR\exefile\shell\NSudo" /v "Position" /t REG_SZ /d "1" /f >NUL 2>&1
 
-:: Create CommandStore
+:: Add CommandStore entries
 	reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NSudo.RunAs.System" /ve /t REG_SZ /d "Run As System" /f >NUL 2>&1
 	reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NSudo.RunAs.System" /v "HasLUAShield" /t REG_SZ /d "" /f >NUL 2>&1
 	reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NSudo.RunAs.System\command" /ve /t REG_SZ /d "\"%NSudoFolder%\NSudo.exe\" -U:S -ShowWindowMode=Hide cmd /c start \"NSudo.ContextMenu.Launcher\" \"%%1\"" /f >NUL 2>&1
@@ -75,12 +75,13 @@
 	reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NSudo.RunAs.TrustedInstaller.EnableAllPrivileges" /v "HasLUAShield" /t REG_SZ /d "" /f >NUL 2>&1
 	reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\NSudo.RunAs.TrustedInstaller.EnableAllPrivileges\command" /ve /t REG_SZ /d "\"%NSudoFolder%\NSudo.exe\" -U:T -P:E -ShowWindowMode=Hide cmd /c start \"NSudo.ContextMenu.Launcher\" \"%%1\"" /f >NUL 2>&1
 	echo Done.
+
 :: Add Nsudo to Environment Variables Path
 	<nul set /p dummyName=Setting Nsudo Environment Variable Path...
 	"%~dp0pathman" /as "%NSudoFolder%"
 	echo Done.
-	
-:: Echo success
+
+:: Success
 	echo:
 	<nul set /p dummyName=NSudo was successfully installed.
 	TIMEOUT /T 3 /nobreak >NUL 2>&1
