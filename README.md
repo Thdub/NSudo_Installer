@@ -7,7 +7,5 @@ Options (prompts for user choice):
 - Start menu shortcut creation.
 
 Download NSudo installer : https://github.com/Thdub/NSudo_Installer/releases
-
 NSudo was created by Mouri Naruto https://github.com/MouriNaruto
-
 Download NSudo : https://github.com/M2Team/NSudo/releases
