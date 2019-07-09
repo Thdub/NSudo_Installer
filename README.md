@@ -5,3 +5,8 @@ Options (prompts for user choice):
 - Custom Json files for Nsudo shortcuts with "Task Scheduler", "Registry Editor", "PowerShell", "notepad" "Component Services" and "Command prompt"
 - Custom Tiles (bigger and transparent icons) for start menu pinning.
 - Start menu shortcut creation.
+
+Download NSudo installer : https://github.com/Thdub/NSudo_Installer/releases
+
+NSudo was created by Mouri Naruto https://github.com/MouriNaruto
+Download NSudo : https://github.com/M2Team/NSudo/releases
