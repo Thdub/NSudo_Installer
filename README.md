@@ -1,4 +1,4 @@
-# NSudo_Installer
+# NSudo Installer
 Simple installer to copy NSudo to custom location (trough a browser), setting context menu entries accordingly, and adding its path to System Environment Variables Paths (this way you can just write "NSudo" instead of whole path in your batch files).
 
 Options (prompts for user choice): 
@@ -9,5 +9,4 @@ Options (prompts for user choice):
 Download NSudo installer : https://github.com/Thdub/NSudo_Installer/releases
 
 NSudo was created by Mouri Naruto https://github.com/MouriNaruto
-
 Download NSudo : https://github.com/M2Team/NSudo/releases
