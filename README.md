@@ -15,10 +15,10 @@ Installer options, asks for user choice.
 - Add custom Tiles: Bigger and transparent icons for Start Menu pinning.
 - Create Start Menu shortcut to NSudo.exe.
 - Add NSudo Context Menu and choose display options between:
-  - all files: HKEY_CLASSES_ROOT\*\shell 
-  - exe files and batch scripts only: .exe .bat .cmd .inf .ps1 .py .reg .vbs
+  - all files: HKEY_CLASSES_ROOT\*\shell
+  - exe files and batch scripts only: .exe  .bat  .cmd  .inf  .ps1  .py  .reg  .vbs
 - Add uninstall support: Uninstall NSudo through Windows "Programs and Features".
-  - No files are created during installation, uninstallation is done with pure batch script commands from registry.
+  - No files are created during installation, uninstallation is done with batch script commands in registry.
 
 - Download NSudo installer : https://github.com/Thdub/NSudo_Installer/releases
 - Download NSudo : https://github.com/M2Team/NSudo/releases
