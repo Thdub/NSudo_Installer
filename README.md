@@ -10,8 +10,8 @@ Pure batch script: No external binaries are required.
 # NSudo Installer Options
 Installer options, to the user choice.
 - Add modified .json file for Nsudo.exe "Open" descending menu, with:
-  - "Task Scheduler", "Registry Editor", "PowerShell", "hosts file", "Component Services" and "Command prompt"
-  - and in Latin characters.
+  - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt
+  - And in Latin characters.
 - Add custom Tiles: Bigger and transparent icons for Start Menu pinning.
 - Create Start Menu shortcut to NSudo.exe.
 - Choose NSudo Context Menu display options between:
