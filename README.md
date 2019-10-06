@@ -1,7 +1,7 @@
 # NSudo Installer
 Batch script installer for NSudo, with additional options.
-- Install NSudo binaries and .json file in custom location, with a convenient browser : 
-  - Enter installation path in Text Box or browse to desired location. 
+- Install NSudo binaries and .json file in custom location, with a convenient browser :
+  - Enter installation path in Text Box or browse to desired location.
   - Choose an existing folder or create a new folder.
 
 Pure batch script: No external binaries are required.
@@ -10,7 +10,7 @@ Pure batch script: No external binaries are required.
 Installer options, to the user choice.
 - Add modified .json file for Nsudo.exe "Open" descending menu, with :
   - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt
-  - And in Latin characters.
+  - In Latin characters (original .json contains Chinese characters)
 - Create Start Menu shortcut to NSudo.exe in "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\"
 - Add Start Menu tranparent tiles : Bigger and transparent icons for Start Menu pinning.
 - Choose NSudo Context Menu display options between :
