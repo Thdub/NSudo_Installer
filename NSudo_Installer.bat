@@ -87,7 +87,7 @@ REM Make "Images" folder and .xml hidden
 	attrib +h "%NSudoFolder%\Images" >nul 2>&1
 	attrib +h "%NSudoFolder%\NSudo.visualelementsmanifest.xml" >nul 2>&1
 REM Refresh shortcut Icon
-	%PScommand% "(ls "$env:programdata\Microsoft\Windows\Start Menu\Programs\System\Nsudo.lnk").lastwritetime = get-date" >nul 2>&1
+	%PScommand% -c "(ls '%Start_Menu_Folder%\Nsudo.lnk').lastwritetime = get-date" >nul 2>&1
 
 REM Title bar
 	<nul set /p DummyName=]0;NSudo Installer
@@ -167,7 +167,7 @@ REM Add CommandStore entries
 
 :Environment_Variables_Task
 REM Add NSudo to environment variables path choice
-	<nul set /p DummyName=Do you want add NSudo location to environment variables path? [Y/N]
+	<nul set /p DummyName=Do you want to add NSudo location to environment variables path? [Y/N]
 	choice /C:YN >nul 2>&1
 	if errorlevel 2 ( echo %No%& goto :Uninstall_Support )
 	if errorlevel 1 echo %Yes%
@@ -204,7 +204,7 @@ REM Replace semicolon duplicate if path ended with semicolon
 
 :Uninstall_Support
 REM Uninstall Support choice
-	<nul set /p DummyName=Do you want add Uninstall Support? [Y/N]
+	<nul set /p DummyName=Do you want to add Uninstall Support? [Y/N]
 	choice /C:YN >nul 2>&1
 	if errorlevel 2 ( echo %No%& goto :Install_Success )
 	if errorlevel 1 echo %Yes%
