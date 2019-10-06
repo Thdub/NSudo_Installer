@@ -23,5 +23,5 @@ Installer options, to the user choice.
   - No files are created during installation, uninstallation is done with script commands from registry.
 
 # Downloads
-- Download NSudo installer : https://github.com/Thdub/NSudo_Installer/releases
+- Download NSudo Installer : https://github.com/Thdub/NSudo_Installer/releases
 - Download NSudo : https://github.com/M2Team/NSudo/releases
