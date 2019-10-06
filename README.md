@@ -3,7 +3,8 @@ Batch script installer for NSudo, with additional options.
 - Install NSudo binaries and .json file in custom location, with a convenient browser: 
   - Enter installation path in Text Box or browse to desired location. 
   - Choose an existing folder or create a new folder.
-- Pure batch script: No external binaries are required.
+
+Pure batch script: No external binaries are required.
 
 # NSudo Installer Options
 Installer options, to the user choice.
