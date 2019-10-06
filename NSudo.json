@@ -1,0 +1,10 @@
+﻿{
+	"ShortCutList_V2": {
+		"Task Scheduler": "mmc taskschd.msc",
+		"Registry Editor": "regedit",
+		"PowerShell": "powershell",
+		"Hosts": "notepad C:\\Windows\\System32\\Drivers\\etc\\hosts",
+		"Component Services": "mmc comexp.msc",
+		"CMD": "cmd"
+	}
+}

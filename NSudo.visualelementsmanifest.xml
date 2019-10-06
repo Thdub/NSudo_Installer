@@ -1,0 +1,9 @@
+<Application xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <VisualElements
+      ShowNameOnSquare150x150Logo='on'
+      Square150x150Logo="Images\wide.NSudo.png"
+      Square70x70Logo="Images\NSudo.png"
+      ForegroundText="light"
+      BackgroundColor="#0063b1" />
+</Application>
+
