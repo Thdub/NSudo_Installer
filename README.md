@@ -1,13 +1,13 @@
 # NSudo Installer
-Batch script installer for NSudo, with additional options.
+Batch script installer for NSudo with additional options.
 - Install NSudo binaries and .json file in custom location, with a convenient browser:
-  - Enter installation path in Text Box or browse to desired location.
-  - Choose an existing folder or create a new folder.
+  - Enter installation path in Text Box, or browse to desired location.
+  - Choose an existing folder, or create a new folder with the "Make New Folder" button.
 
 Pure batch script: No external binaries are required.
 
 # NSudo Installer Options
-Installer options, to the user choice.
+Installer options at the user choice.
 - Add modified .json file for Nsudo.exe "Open" descending menu, with:
   - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt
   - In Latin characters (original .json contains Chinese characters)
@@ -19,7 +19,7 @@ Installer options, to the user choice.
   - exe files only
 - Add NSudo installation path to system environment variables paths:
   - This way you can juste write "NSudo" instead of "whole NSudo path" in your batch scripts using NSudo. 
-- Add uninstall support: Uninstall NSudo through Windows "Programs and Features".
+- Add Uninstall Support: Uninstall NSudo through Windows "Programs and Features".
   - No files are created during installation, uninstallation is done 100% with script commands from registry.
 
 # Downloads
