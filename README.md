@@ -30,5 +30,5 @@ Installer options at the user choice.
 - Browser:
 ![Browser](http://u.cubeupload.com/qrP722m4/wULhKt.png)
   
-- Process:
+- Process:                       
 ![Process](https://u.cubeupload.com/qrP722m4/MZrxXL.png)
