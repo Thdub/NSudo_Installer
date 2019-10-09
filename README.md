@@ -28,4 +28,4 @@ Installer options at the user choice.
 
 # Screenshots:
 - Browser: http://u.cubeupload.com/qrP722m4/wULhKt.png
-- Process: https://u.cubeupload.com/qrP722m4/MZrxXL.png
+- Script Process: https://u.cubeupload.com/qrP722m4/MZrxXL.png
