@@ -27,5 +27,5 @@ Installer options at the user choice.
 - Download NSudo: https://github.com/M2Team/NSudo/releases
 
 # Screenshots:
-- Browser: http://u.cubeupload.com/qrP722m4/wULhKt.png
-- Process: https://u.cubeupload.com/qrP722m4/MZrxXL.png
+![Browser](http://u.cubeupload.com/qrP722m4/wULhKt.png)
+![Process](https://u.cubeupload.com/qrP722m4/MZrxXL.png)
