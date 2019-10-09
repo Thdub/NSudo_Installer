@@ -28,6 +28,7 @@ Installer options at the user choice.
 
 # Screenshots:
 - Browser
-![Browser](http://u.cubeupload.com/qrP722m4/wULhKt.png)
+  - ![Browser](http://u.cubeupload.com/qrP722m4/wULhKt.png)
+  
 - Process
-![Process](https://u.cubeupload.com/qrP722m4/MZrxXL.png)
+  - ![Process](https://u.cubeupload.com/qrP722m4/MZrxXL.png)
