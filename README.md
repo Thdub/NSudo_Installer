@@ -1,13 +1,13 @@
 # NSudo Launcher Installer
-Batch script AIO installer for NSudo Launcher (x64, x86, ARM64, ARM) with additional options.
-Extracts and Installs NSudo binaries and .json file in custom location, with a convenient browser.
-Pure batch script: No external binaries are required.
+Batch script AIO installer for NSudo Launcher (x64, x86, ARM64, ARM) with additional options.  
+Extracts and Installs NSudo binaries and .json file in custom location, with a convenient browser.  
+Pure batch script: No external binaries are required.  
 
 # Install
 1. Launch .bat as administrator.
-2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.
-  - Change value to 1 to allow root installation (like C:\)
-  - Change value to 0 (default) to disallow root installation.
+2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.  
+   - Change value to 1 to allow root installation (like C:\)
+   - Change value to 0 (default) to disallow root installation.
 3. Select Options
 
 # NSudo Launcher Installer Options
