@@ -6,8 +6,8 @@ Pure batch script : No external binaries are required.
 # Install  
 1. Launch .bat as administrator.  
 2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.  
-   - Change value to 1 to allow root installation (like C:\)  
-   - Change value to 0 (default) to disallow root installation.  
+   - Change value to 1 to allow root installation (like "C:\")  
+   - Change value to 0 (default) to prohibit root installation.  
 3. Select Options  
 
 # NSudo Launcher Installer Options  
