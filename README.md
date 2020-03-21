@@ -1,17 +1,24 @@
-# NSudo Installer
-Batch script installer for NSudo with additional options.
-- Install NSudo binaries and .json file in custom location, with a convenient browser:
-  - Enter installation path in Text Box, or browse to desired location.
-  - Choose an existing folder, or create a new folder with the "Make New Folder" button.
-
+# NSudo Launcher Installer
+Batch script AIO installer for NSudo Launcher (x64, x86, ARM64, ARM) with additional options.
+Extracts and Installs NSudo binaries and .json file in custom location, with a convenient browser.
 Pure batch script: No external binaries are required.
 
-# NSudo Installer Options
-Installer options at the user choice.
+# Install
+1. Launch .bat as administrator.
+2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.
+  - Change value to 1 to allow root installation (like C:\)
+  - Change value to 0 (default) to disallow root installation.
+3. Select Options
+
+# NSudo Launcher Installer Options
+Installer options, at the user choice.
+
 - Add modified .json file for Nsudo.exe "Open" descending menu, with:
   - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt
   - In Latin characters (original .json contains Chinese characters)
-- Create Start Menu shortcut to NSudo.exe in "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\"
+- Create Start Menu shortcut to NSudoLG.exe in "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\"
+  - Set option to 1 to create shortcut anywhere you like.
+  - Set option to 0 (default) to restrict shortcut creation to Start Menu(s) and Start Menu(s) subfolders. 
 - Add Start Menu tranparent tiles: Bigger and transparent icons for Start Menu pinning.
 - Choose NSudo Context Menu display options between:
   - All files: HKEY_CLASSES_ROOT\*\shell\NSudo
@@ -27,8 +34,11 @@ Installer options at the user choice.
 - Download NSudo: https://github.com/M2Team/NSudo/releases
 
 # Screenshots:
-- Browser:
-![Browser](http://u.cubeupload.com/qrP722m4/wULhKt.png)
+- Installer :
+![Process](http://u.cubeupload.com/qrP722m4/45kw47.png)
   
-- Process:                       
-![Process](https://u.cubeupload.com/qrP722m4/MZrxXL.png)
+- "Vista" Style Folder Picker :                       
+![Browser](http://u.cubeupload.com/qrP722m4/eL3rPi.png)
+
+- Uninstall
+![Uninstall](http://u.cubeupload.com/qrP722m4/kHc5w6.png)
