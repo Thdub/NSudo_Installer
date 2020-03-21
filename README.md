@@ -1,7 +1,7 @@
 # NSudo Launcher Installer
 Batch script AIO installer for NSudo Launcher (x64, x86, ARM64, ARM) with additional options.  
 Extracts and Installs NSudo binaries and .json file in custom location, with a convenient browser.  
-Pure batch script: No external binaries are required.  
+Pure batch script : No external binaries are required.  
 
 # Install
 1. Launch .bat as administrator.
@@ -29,16 +29,14 @@ Installer options, at the user choice.
 - Add Uninstall Support: Uninstall NSudo through Windows "Programs and Features".
   - No files are created during installation, uninstallation is done 100% with script commands from registry.
 
-# Downloads
-- Download NSudo Installer: https://github.com/Thdub/NSudo_Installer/releases
-- Download NSudo: https://github.com/M2Team/NSudo/releases
+# Downloads  
+- Download NSudo Installer: https://github.com/Thdub/NSudo_Installer/releases  
+- Download NSudo: https://github.com/M2Team/NSudo/releases  
 
 # Screenshots:
-- Installer :
-![Process](http://u.cubeupload.com/qrP722m4/45kw47.png)
-  
-- "Vista" Style Folder Picker :                       
+- Installer :  
+![Process](http://u.cubeupload.com/qrP722m4/45kw47.png)  
+- "Vista" Style Folder Picker :               
 ![Browser](http://u.cubeupload.com/qrP722m4/eL3rPi.png)
-
-- Uninstall
+- Uninstall :  
 ![Uninstall](http://u.cubeupload.com/qrP722m4/kHc5w6.png)
