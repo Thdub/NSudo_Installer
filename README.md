@@ -6,8 +6,8 @@ Pure batch script : No external binaries are required.
 # Install
 1. Launch .bat as administrator.
 2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.  
-   - Change value to 1 to allow root installation (like C:\)  
-   - Change value to 0 (default) to disallow root installation.  
+   -Change value to 1 to allow root installation (like C:\)  
+   -Change value to 0 (default) to disallow root installation.  
 3. Select Options  
 
 # NSudo Launcher Installer Options  
@@ -27,7 +27,7 @@ Installer options, at the user choice.
 - Add NSudo installation path to system environment variables paths :
   - This way you can juste write "NSudo" instead of "whole NSudo path" in your batch scripts using NSudo. 
 - Add Uninstall Support: Uninstall NSudo through Windows "Programs and Features".
-  - No files are created during installation, uninstallation is done 100% with script commands from registry.
+  - NO FILES are created during installation, uninstallation is done 100% with script commands from registry.
 
 # Downloads  
 Download NSudo Installer : https://github.com/Thdub/NSudo_Installer/releases  
@@ -36,7 +36,9 @@ Download NSudo : https://github.com/M2Team/NSudo/releases
 # Screenshots:
 Installer :  
 ![Process](http://u.cubeupload.com/qrP722m4/45kw47.png)  
+
 "Vista Style" Folder Picker :  
 ![Browser](http://u.cubeupload.com/qrP722m4/eL3rPi.png)
+
 Uninstall :  
 ![Uninstall](http://u.cubeupload.com/qrP722m4/kHc5w6.png)
