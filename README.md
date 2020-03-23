@@ -27,11 +27,11 @@ Debug
 # NSudo Launcher Installer Options  
 Installer options, at the user choice.  
 
-- ** Add modified NSudo.json file, for NsudoLG "Open" descending menu, with :  
+--- - Add modified NSudo.json file, for NsudoLG "Open" descending menu, with :  
 
   - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt.  
   - In Latin characters (original .json contains Chinese characters).  
-- ** Create Start Menu shortcut to NSudoLG.exe  
+- Create Start Menu shortcut to NSudoLG.exe  
   - "Select Folder" dialog default browsing location is set to "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\".
   - Default shorcut location is restricted to Start Menus - "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\" or "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs" - folders and subfolders.  
   - Set option to 1 to create a shortcut anywhere you like. This also changes "Select Folder" dialog default browsing location to "This PC".
