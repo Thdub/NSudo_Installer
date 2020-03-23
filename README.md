@@ -30,7 +30,8 @@ Installer options, at the user choice.
 - Add modified .json file for Nsudo.exe "Open" descending menu, with :  
   - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt.  
   - In Latin characters (original .json contains Chinese characters).  
-- Create Start Menu shortcut to NSudoLG.exe in "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\".  
+- Create Start Menu shortcut to NSudoLG.exe
+  - Default Browsing location is "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\". and shorcut location is restricted to Start Menus ("C:\ProgramData\Microsoft\Windows\Start Menu\Programs\" or "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs") folders and subfolders 
   - Set option to 1 to create shortcut anywhere you like.  
   - Set option to 0 (default) to restrict shortcut creation to Start Menu(s) and Start Menu(s) subfolders. 
 - Add Start Menu tranparent tiles : Bigger and transparent icons for Start Menu pinning.  
