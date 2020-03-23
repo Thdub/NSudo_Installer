@@ -27,22 +27,22 @@ Debug
 # NSudo Launcher Installer Options  
 Installer options, at the user choice.  
 
-    - Add modified NSudo.json file, for NsudoLG "Open" descending menu, with :  
+-(U+0020)Add modified NSudo.json file, for NsudoLG "Open" descending menu, with :  
   - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt.  
   - In Latin characters (original .json contains Chinese characters).  
-    - Create Start Menu shortcut to NSudoLG.exe  
+-(U+0020)Create Start Menu shortcut to NSudoLG.exe  
   - "Select Folder" dialog default browsing location is set to "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\".
   - Default shorcut location is restricted to Start Menus - "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\" or "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs" - folders and subfolders.
   - Set option to 1 to create a shortcut anywhere you like. This also changes "Select Folder" dialog default browsing location to "This PC".
   - Set option to 0 (default) to restrict shortcut creation to Start Menu(s) and Start Menu(s) subfolders. 
-- Add Start Menu tranparent tiles : Bigger and transparent icons for Start Menu pinning.  
-- Choose NSudo Context Menu display options between :  
+-(U+0020)Add Start Menu tranparent tiles : Bigger and transparent icons for Start Menu pinning.  
+-(U+0020)Choose NSudo Context Menu display options between :  
   - All files: HKEY_CLASSES_ROOT\*\shell\NSudo  
   - exe files and batch scripts: .exe  .bat  .cmd  .inf  .ps1  .py  .reg  .vbs  
   - exe files only  
-- Add NSudo installation path to system environment variables paths :  
+-(U+0020)Add NSudo installation path to system environment variables paths :  
   - This way you can juste write "NSudoLC" or "NSudoLG" in your batch scripts or commands instead of whole path.   
-- Add Uninstall Support: Uninstall NSudo through Windows "Programs and Features".  
+-(U+0020)Add Uninstall Support: Uninstall NSudo through Windows "Programs and Features".  
   - NO FILES are created during installation, uninstallation is done 100% with script commands from registry.  
 
 # Downloads  
