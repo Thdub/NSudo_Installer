@@ -10,6 +10,7 @@ Pure batch script : No external binaries are required.
 
 Pre-install notes :  
 You can edit following values at the beginning of the script :  
+```
 Root_Perm  
 - Set value to 1 : Allow root installation (like "C:\")  
 - Set value to 0 : Do not allow installing NSudo Launcher at root of a drive (default value)  
@@ -21,7 +22,7 @@ Shortcut_Path
 Debug  
 - Set value to 1 : Install .pdb debug files 
 - Set value to 0 : Do not install .pdb debug files (default value)  
-
+```
 # NSudo Launcher Installer Options  
 Installer options, at the user choice.  
 
