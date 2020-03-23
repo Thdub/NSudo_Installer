@@ -14,11 +14,13 @@ You can edit following values at the beginning of the script :
 Root_Perm  
 - Set value to 1 : Allow root installation (like "C:\")  
 - Set value to 0 : Do not allow installing NSudo Launcher at root of a drive (default value)  
-  
+```
+```
 Shortcut_Path     
 - Set value to 1 : Create shortcut anywhere you like  
 - Set value to 0 : Shortcut creation is restricted to Start Menu(s) and Start Menu(s) subfolders (default value)  
-
+```
+```
 Debug  
 - Set value to 1 : Install .pdb debug files 
 - Set value to 0 : Do not install .pdb debug files (default value)  
