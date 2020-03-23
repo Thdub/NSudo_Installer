@@ -1,11 +1,11 @@
-# NSudo Launcher Installer  
-Batch script AIO installer for NSudo Launcher (x64, x86, ARM64, ARM) with additional options.  
+# NSudo Launcher AIO Installer  
+Batch script All in One installer for NSudo Launcher (NSudoLC, NSudoLG - x64, x86, ARM64 or ARM) with additional options.  
 Extracts and Installs NSudo binaries and .json file in custom location, with a convenient browser.  
 Pure batch script : No external binaries are required.  
 
 # Install  
 1. Launch .bat as administrator.  
-2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.  
+2. Browse to desired location, or paste an existing folder path - either in address bar or message box - then click "Select Folder" button.  
 3. Select Options  
 
 **Pre-install notes :** You can edit the following values at the beginning of the script  
@@ -36,17 +36,17 @@ Installer options, at the user choice.
   - Set option to 1 to create a shortcut anywhere you like. This also changes "Select Folder" dialog default browsing location to "This PC".  
   - Set option to 0 (default) to restrict shortcut creation to Start Menu(s) and Start Menu(s) subfolders.  
 - Add Start Menu tranparent tiles : Bigger and transparent icons for Start Menu pinning.  
-- Choose NSudo Context Menu display options between :  
-  - All files: HKEY_CLASSES_ROOT\*\shell\NSudo  
-  - exe files and batch scripts: .exe  .bat  .cmd  .inf  .ps1  .py  .reg  .vbs  
+- Choose NSudoLG Context Menu display options between :  
+  - All files : HKEY_CLASSES_ROOT\*\shell\NSudo  
+  - exe files and batch scripts : .exe  .bat  .cmd  .inf  .ps1  .py  .reg  .vbs  
   - exe files only  
-- Add NSudo installation path to system environment variables paths :  
+- Add NSudo Launcher installation path to system environment variables paths :  
   - This way you can juste write "NSudoLC" or "NSudoLG" in your batch scripts or commands instead of whole path.  
-- Add Uninstall Support: Uninstall NSudo through Windows "Programs and Features".  
+- Add Uninstall Support : Uninstall NSudo through Windows "Programs and Features".  
   - NO FILES are created during installation, uninstallation is done 100% with script commands from registry.  
 
 # Downloads  
-Download NSudo Installer : https://github.com/Thdub/NSudo_Installer/releases/latest  
+Download NSudo Launcher AIO Installer : https://github.com/Thdub/NSudo_Installer/releases/latest  
 Download NSudo : https://github.com/M2Team/NSudo/releases  
 
 # Screenshots  
