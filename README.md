@@ -9,15 +9,15 @@ Pure batch script : No external binaries are required.
 3. Select Options  
 
 Note : You can edit following values at top of script.
-- Root_Perm :  
+-Root_Perm :  
 - Set value to 1 : Allow root installation (like "C:\")  
 - Set value to 0 : Prohibit root installation. (default value)  
   
-- Shortcut_Path :    
+-Shortcut_Path :    
 - Set value to 1 : Create shortcut anywhere you like  
 - Set value to 0 : Shortcut creation is restricted to Start Menu(s) and Start Menu(s) subfolders (default value)  
 
-- Debug :  
+-Debug :  
 - Set value to 1 : Install .pdb debug files 
 - Set value to 0 : Do not install .pdb debug files (default value)  
 
