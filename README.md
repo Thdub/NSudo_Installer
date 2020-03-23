@@ -8,7 +8,7 @@ Pure batch script : No external binaries are required.
 2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.  
 3. Select Options  
 
-Note : You can edit following values at top of script.
+Note : You can edit following values at top of script.  
 -Root_Perm :  
 - Set value to 1 : Allow root installation (like "C:\")  
 - Set value to 0 : Prohibit root installation. (default value)  
