@@ -27,7 +27,7 @@ Debug
 # NSudo Launcher Installer Options  
 Installer options, at the user choice.  
 
-- Add modified .json file for Nsudo.exe "Open" descending menu, with :  
+- Add modified NSudo.json file, for NsudoLG "Open" descending menu, with :  
   - Task Scheduler, Registry Editor, PowerShell, hosts file, Component Services, Command prompt.  
   - In Latin characters (original .json contains Chinese characters).  
 - Create Start Menu shortcut to NSudoLG.exe
@@ -41,7 +41,7 @@ Installer options, at the user choice.
   - exe files and batch scripts: .exe  .bat  .cmd  .inf  .ps1  .py  .reg  .vbs  
   - exe files only  
 - Add NSudo installation path to system environment variables paths :  
-  - This way you can juste write "NSudo" instead of "whole NSudo path" in your batch scripts using NSudo. 
+  - This way you can juste write "NSudoLC" or "NSudoLG" in your batch scripts or commands instead of whole path.   
 - Add Uninstall Support: Uninstall NSudo through Windows "Programs and Features".  
   - NO FILES are created during installation, uninstallation is done 100% with script commands from registry.  
 
