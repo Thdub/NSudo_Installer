@@ -8,7 +8,7 @@ Pure batch script : No external binaries are required.
 2. Browse to desired location, or paste an existing path - either in address bar or message box - then click "Select Folder" button.  
 3. Select Options  
 
-Pre-install notes : You can edit following values at the beginning of the script :  
+Pre-install notes : You can edit the following values at the beginning of the script  
 ```
 Root_Perm
 - Set value to 1 : Allow root installation (like "C:\")  
